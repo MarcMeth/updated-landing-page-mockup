@@ -1,0 +1,35 @@
+{
+  "settings":
+  {
+    "duration-delay": 15,
+    "page-probability": 0.3,
+    "site-probability": 0.7,
+    "blacklist": [{"url" : ""}],
+    "whitelist": [{"url" : "^nrc.canada.ca\/"}]
+  },
+  "surveys" : [
+  {
+    "id" : "1",
+    "title-en" : "NRC task success survey",
+    "title-fr" : "Sondage sur la réussite de tâches du CNRC",
+    "body-en" : "<p>Please take a few moments to let us know about your experience with the <strong>National Research Council of Canada‘s</strong> website. This will help us to serve you better in the future.</p><p>Your participation is voluntary and your responses are confidential and anonymous.</p><p class='mrgn-bttm-0'>",
+    "body-fr" : "<p>Veuillez prendre quelques minutes pour nous faire part de votre expérience sur le site Web du <strong>Conseil national de recherches du Canada</strong>. Cela nous aidera à mieux vous servir à l'avenir.</p><p>Votre participation est volontaire, et vos réponses sont confidentielles et anonymes. </p><p class='mrgn-bttm-0'>",
+    "link-en" : "https://www.canada.ca/en/surveys/gc-task-success-survey.html?srvsrc=nrc-cnrc-site-5-nrc-canada-ca:y:n:n:y:y:y&rvlist=nrc-cnrc",
+    "link-fr" : "https://www.canada.ca/fr/sondages/sondage-reussite-taches-gc.html?srvsrc=nrc-cnrc-site-5-nrc-canada-ca:y:n:n:y:y:y&rvlist=nrc-cnrc",
+    "start-on" : "2021-01-01T00:00:00",
+    "end-on" : "2031-12-31T00:00:00",
+    "type" : "Entire site",
+    "probability" : 0.10,
+    "yes-en" : "<strong>Yes, after my visit.</strong>",
+    "yes-fr" : "<strong>Oui, après ma visite.</strong>",
+    "no-en" : "No, thank you.",
+    "no-fr" : "Non, merci.",
+    "close-en" : "Close (escape key)",
+    "close-fr" : "Fermer (touche d&apos;Ã©chappement)",
+    "name" : "NRC - Non-Canada.ca - Site - 5 - GC Task Success Survey - 2021-02-01",
+    "survey-urls" : [
+      {"site" : "^nrc.canada.ca"}
+    ]
+  }
+  ]
+}
